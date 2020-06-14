@@ -26,3 +26,5 @@ This repository hosts scripts related to data visualization in Python.
 **Description:** This script generates a scatter plot of MPG vs HP from the mtcars dataset. The script also provides good examples of text manipulation on the plot (e.g., font style, weight, color, and padding).
 
 <img src=media/scatter_plot.png width=70%>
+
+<img src=media/scatter_plot_bfl.png width=70%>

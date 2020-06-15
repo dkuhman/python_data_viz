@@ -12,9 +12,7 @@ This repository hosts scripts related to data visualization in Python.
 
 **Description:** This script generates a line plot of weather across days of the year for two separate cities. The script also provides good examples of Pandas functionality, particularly string manipulation (for dates). In the second plot below, I used `df.rolling(5).mean()` to apply a 5-step moving average to both curves. 
 
-<img src=media/line_plot.png width=70%>
-
-<img src=media/line_plot_mov_avg.png width=70%>
+<img src=media/line_plot.png width=47%><img src=media/line_plot_mov_avg.png width=47%>
 
 ---
 
@@ -26,3 +24,14 @@ This repository hosts scripts related to data visualization in Python.
 **Description:** This script generates a scatter plot of MPG vs HP from the mtcars dataset. The script also provides good examples of text manipulation on the plot (e.g., font style, weight, color, and padding). The script also provides a `numpy` template for adding a line of best fit (1st order ploynomial) to the scatter data.
 
 <img src=media/scatter_plot.png width=47%><img src=media/scatter_plot_bfl.png width=47%>
+
+---
+
+## Bar Plots
+**Code:** `pandas_bar_plot.py`
+
+**Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
+
+**Description:** This script generates two bar plots - one of MPG vs cylinder count and one of multiple variables grouped by cyclinder count. All data comes from the mtcars dataset. The script also provides good examples of common pandas functionality (e.g., `.mean()`, `.std()`, and `.groupby()`).
+
+<img src=media/bar_plot_basic.png width=47%><img src=media/bar_plot_grouped.png width=47%>

@@ -41,6 +41,6 @@ This repository hosts scripts related to data visualization in Python.
 
 **Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
 
-**Description:** This script generates a box plot of MPG vs cylinder count. All data comes from the mtcars dataset. The script incoporates functions from the `seaborn` module.
+**Description:** This script generates two box plots - one of MPG vs cylinder count (from the mtcars data set) and one of sepal width as a function of plant species and sepal length (from the iris data set). The script incoporates functions from the `seaborn` module.
 
-<img src=media/box_plot_basic.png width=47%>
+<img src=media/box_plot_basic.png width=47%><img src=media/box_plot_grouped.png width=47%>

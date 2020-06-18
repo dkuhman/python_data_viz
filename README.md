@@ -74,6 +74,8 @@ This repository hosts scripts related to data visualization in Python.
 
 **Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
 
-**Modules:** 
+**Modules:** `pandas`, `matplotlib`, `seaborn`
 
 **Description:** This script generates example histograms using the mtcars data set.
+
+<img src=media/histogram_basic.png width=47%><img src=media/histogram_grouped.png width=47%>

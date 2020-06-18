@@ -46,7 +46,7 @@ This repository hosts scripts related to data visualization in Python.
 ## Box Plots
 **Code:** `box_plot.py`
 
-**Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
+**Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c) and iris (loaded from Seaborn)
 
 **Modules:** `pandas`, `matplotlib`, `seaborn`
 
@@ -79,3 +79,16 @@ This repository hosts scripts related to data visualization in Python.
 **Description:** This script generates example histograms using the mtcars data set.
 
 <img src=media/histogram_basic.png width=47%><img src=media/histogram_grouped.png width=47%>
+
+---
+
+## Joint Plots
+**Code:** `joint_plot.py`
+
+**Data:** iris (loaded from Seaborn)
+
+**Modules:** `matplotlib`, `seaborn`
+
+**Description:** This script generates examples of joint plots, which have a main, center panel and marginal panels.
+
+<img src=media/scatter_plot_joint.png width=47%><img src=media/density_plot_joint.png width=47%>

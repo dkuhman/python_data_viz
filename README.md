@@ -5,7 +5,7 @@ This repository hosts scripts related to data visualization in Python.
 ---
 
 ## Line Plots
-**Code:** `pandas_line_plot.py`
+**Code:** `line_plot.py`
 
 **Data:** data/city_weather_2019.csv
 
@@ -18,7 +18,7 @@ This repository hosts scripts related to data visualization in Python.
 ---
 
 ## Scatter Plots
-**Code:** `pandas_scatter_plot.py`
+**Code:** `scatter_plot.py`
 
 **Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
 
@@ -31,7 +31,7 @@ This repository hosts scripts related to data visualization in Python.
 ---
 
 ## Bar Plots
-**Code:** `pandas_bar_plot.py`
+**Code:** `bar_plot.py`
 
 **Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
 
@@ -44,7 +44,7 @@ This repository hosts scripts related to data visualization in Python.
 ---
 
 ## Box Plots
-**Code:** `pandas_box_plot.py`
+**Code:** `box_plot.py`
 
 **Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
 
@@ -57,7 +57,7 @@ This repository hosts scripts related to data visualization in Python.
 ---
 
 ## Heat Mapped Correlation Matrix
-**Code:** `pandas_cormat_plot.py`
+**Code:** `cormat_plot.py`
 
 **Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
 
@@ -66,3 +66,14 @@ This repository hosts scripts related to data visualization in Python.
 **Description:** This script generates a heat mapped correlation matrix from the mtcars data set.
 
 <img src=media/cor_heat_map.png width=47%><img src=media/cor_heat_map_annot.png width=47%>
+
+---
+
+## Histograms
+**Code:** `histogram_plot.py`
+
+**Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
+
+**Modules:** 
+
+**Description:** This script generates example histograms using the mtcars data set.

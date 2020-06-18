@@ -1,7 +1,6 @@
 # Data Visualization in Python
-**IN PROGRESS!**
 
-This repository hosts scripts related to data visualization in Python.
+This repository hosts scripts related to data visualization in Python. 
 
 ---
 
@@ -36,6 +35,8 @@ This repository hosts scripts related to data visualization in Python.
 
 <img src=media/bar_plot_basic.png width=47%><img src=media/bar_plot_grouped.png width=47%>
 
+---
+
 ## Box Plots
 **Code:** `pandas_box_plot.py`
 
@@ -44,3 +45,14 @@ This repository hosts scripts related to data visualization in Python.
 **Description:** This script generates two box plots - one of MPG vs cylinder count (from the mtcars data set) and one of sepal width as a function of plant species and sepal length (from the iris data set). The script incoporates functions from the `seaborn` module.
 
 <img src=media/box_plot_basic.png width=47%><img src=media/box_plot_grouped.png width=47%>
+
+---
+
+## Heat Mapped Correlation Matrix
+**Code:** `pandas_cormat_plot.py`
+
+**Data:** mtcars.csv (loaded from https://gist.github.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c)
+
+**Description:** This script generates a heat mapped correlation matrix from the mtcars data set. The script incoporates functions from the `pandas`, `numpy`, `matplotlin`, and `seaborn` modules.
+
+<img src=media/cor_heat_map.png width=47%><img src=media/cor_heat_map_annot.png width=47%>
